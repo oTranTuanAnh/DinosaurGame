@@ -1,0 +1,29 @@
+#score {
+    text-align: center;
+}
+#game {
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    margin: auto;
+    background-image: url("https://t4.ftcdn.net/jpg/01/46/03/31/360_F_146033193_K3poVK6PmEHrepqbZD2gwfmm6ma0XAdh.webp");
+    background-size: cover;
+}
+#dino {
+    height: 75px;
+    width: 75px;
+    position: relative;
+    top: 225px;
+    background-image: url("../img/dino.png");
+    background-size: cover;
+
+}
+#rock {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 175px;
+    left: 550px;
+    background-image: url("../img/rock.png");
+    background-size: cover;
+}
