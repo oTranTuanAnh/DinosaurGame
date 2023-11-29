@@ -26,4 +26,17 @@
     left: 550px;
     background-image: url("../img/rock.png");
     background-size: cover;
+    animation: rock 1.5s infinite;
+}
+@keyframes rock {
+    0%{left: 550px}
+    100%{left: -50px;}
+}
+.jump-animation{
+    animation: jump 0.5s;
+}
+@keyframes jump {
+    0%{top: 225px}
+    50%{top: 75px}
+    100%{top: 225px;}
 }
