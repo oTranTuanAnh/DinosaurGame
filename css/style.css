@@ -14,6 +14,7 @@
     width: 75px;
     position: relative;
     top: 225px;
+    left: 100px;
     background-image: url("../img/dino.png");
     background-size: cover;
 
@@ -33,7 +34,7 @@
     100%{left: -50px;}
 }
 .jump-animation{
-    animation: jump 0.5s;
+    animation: jump 0.8s;
 }
 @keyframes jump {
     0%{top: 225px}
