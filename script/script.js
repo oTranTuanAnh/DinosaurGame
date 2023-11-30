@@ -93,7 +93,7 @@ function update() {
             gameOver = true;
             dinoImg.src = "./img/dino-dead.png";
             dinoImg.onload();
-            alert("game over");
+            alert("game over " + "\nYour Point is: "+score+ "\nPress F5 to play again");
         }
     }
 
@@ -111,7 +111,10 @@ function moveDino(e) {
     if (gameOver){
         return;
     }
-    velocityY = -10;
+    if ((e.code === "Space")&& dino.y === dinoY){
+        velocityY = -10;
+    }
+
 }
 function placeCactus() {
     if (gameOver){
